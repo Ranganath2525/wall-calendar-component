@@ -1,16 +1,102 @@
-# React + Vite
+# 📅 Interactive Wall Calendar Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This project is a **React-based interactive wall calendar component** inspired by a physical wall calendar design. It combines a clean visual layout with modern interactive features such as date range selection and note-taking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal of this project is to demonstrate strong **frontend engineering, UI/UX design, and state management skills**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🖼 **Dynamic Month-Based Hero Images**
+  Each month displays a different themed image to enhance visual appeal.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📆 **Date Range Selection**
+  Users can select a start and end date with clear visual highlighting.
+
+* 📝 **Notes System**
+
+  * Month Notes → for general planning
+  * Range Notes → for selected date ranges
+
+* 💾 **LocalStorage Persistence**
+  Notes and selections are saved even after page refresh.
+
+* 📱 **Fully Responsive Design**
+
+  * Desktop → Side-by-side layout
+  * Mobile → Stacked layout
+
+* 🎨 **Enhanced UI/UX**
+
+  * Light cream background (paper-like feel)
+  * Improved text readability
+  * Clean typography and spacing
+
+---
+
+## 🛠 Tech Stack
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* 💡 JavaScript (ES6+)
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ │    └── WallCalendar.jsx
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 📌 Future Enhancements
+
+* 🖱 Drag-to-select date range
+* 🧠 AI-based smart notes suggestions
+* 🇮🇳 Indian holiday integration
+* ✨ Advanced animations (page flip, transitions)
+
+---
+
+## 🎯 Key Highlights
+
+* Design-to-code implementation from a visual reference
+* Interactive UI with real-time feedback
+* Clean and reusable component structure
+* Focus on usability and responsiveness
+
+---
+
+## 📸 Demo
+
+(Add your Loom / video link here)
+
+---
+
+## 🌐 Live Demo (Optional)
+
+(Add your Vercel link here)
+
+---
+
+💡 This project demonstrates the ability to convert a static design into a **fully interactive, responsive, and user-friendly frontend component**.
